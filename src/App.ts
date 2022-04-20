@@ -8,8 +8,10 @@ dotenv.config(); // Env vars setup
 
 const app = express();
 
-if(process.env.PUBLIC_KEY)
+if(process.env.PUBLIC_KEY){
 	app.use(express.json({ verify: VerifyDiscordRequest(process.env.PUBLIC_KEY) }));
+	console.log("> public_key verified!");
+}
 
 app.use(router);
 
@@ -26,4 +28,4 @@ app.use(
 });
 	
 
-app.listen(process.env.PORT || 3000, () => { console.log("Server Up!") });
+app.listen(process.env.PORT || 3000, () => { console.log("> Server Up!") });
