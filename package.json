@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev src/App.ts",
-    "build": "tsc && npx typeorm migration:run",
+    "build": "tsc",
     "start": "node ./dist/server.js"
   },
   "dependencies": {
