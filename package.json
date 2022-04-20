@@ -6,7 +6,9 @@
   "author": "Felipe-CdS <felipe32santos@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev src/App.ts"
+    "dev": "ts-node-dev src/App.ts",
+    "build": "tsc && npx typeorm migration:run",
+    "start": "node ./dist/server.js"
   },
   "dependencies": {
     "axios": "^0.26.1",
