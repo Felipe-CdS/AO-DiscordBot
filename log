@@ -1,0 +1,52 @@
+yarn run v1.22.18
+$ ts-node-dev src/App.ts
+[INFO] 10:02:35 ts-node-dev ver. 1.1.8 (using ts-node ver. 9.1.1, typescript ver. 4.6.3)
+Listening on port 3000
+false
+Error: Bad request signature
+    at /home/nugu/Repositories/AO-DiscordBot/src/utils.ts:16:10
+    at /home/nugu/Repositories/AO-DiscordBot/node_modules/body-parser/lib/read.js:104:9
+    at invokeCallback (/home/nugu/Repositories/AO-DiscordBot/node_modules/raw-body/index.js:224:16)
+    at done (/home/nugu/Repositories/AO-DiscordBot/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/nugu/Repositories/AO-DiscordBot/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+true
+[INFO] 10:03:18 Restarting: /home/nugu/Repositories/AO-DiscordBot/src/utils.ts has been modified
+Listening on port 3000
+[INFO] 10:11:18 Restarting: /home/nugu/Repositories/AO-DiscordBot/src/utils.ts has been modified
+Listening on port 3000
+[INFO] 10:11:41 Restarting: /home/nugu/Repositories/AO-DiscordBot/src/utils.ts has been modified
+Listening on port 3000
+[INFO] 10:18:01 Restarting: /home/nugu/Repositories/AO-DiscordBot/src/utils.ts has been modified
+Compilation error in /home/nugu/Repositories/AO-DiscordBot/src/utils.ts
+[ERROR] 10:18:01 ⨯ Unable to compile TypeScript:
+src/utils.ts(27,17): error TS2769: No overload matches this call.
+  Overload 1 of 4, '(arrayBuffer: WithImplicitCoercion<ArrayBuffer | SharedArrayBuffer>, byteOffset?: number | undefined, length?: number | undefined): Buffer', gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'WithImplicitCoercion<ArrayBuffer | SharedArrayBuffer>'.
+      Type 'undefined' is not assignable to type 'WithImplicitCoercion<ArrayBuffer | SharedArrayBuffer>'.
+  Overload 2 of 4, '(str: WithImplicitCoercion<string> | { [Symbol.toPrimitive](hint: "string"): string; }, encoding?: BufferEncoding | undefined): Buffer', gave the following error.
+    Argument of type 'string | undefined' is not assignable to parameter of type 'WithImplicitCoercion<string> | { [Symbol.toPrimitive](hint: "string"): string; }'.
+      Type 'undefined' is not assignable to type 'WithImplicitCoercion<string> | { [Symbol.toPrimitive](hint: "string"): string; }'.
+
+[INFO] 10:18:44 Restarting: /home/nugu/Repositories/AO-DiscordBot/src/utils.ts has been modified
+Listening on port 3000
+[INFO] 10:19:06 Restarting: /home/nugu/Repositories/AO-DiscordBot/src/utils.ts has been modified
+Listening on port 3000
+[INFO] 10:19:13 Restarting: /home/nugu/Repositories/AO-DiscordBot/src/utils.ts has been modified
+Listening on port 3000
+[INFO] 10:19:59 Restarting: /home/nugu/Repositories/AO-DiscordBot/src/utils.ts has been modified
+Listening on port 3000
+[INFO] 10:20:03 Restarting: /home/nugu/Repositories/AO-DiscordBot/src/utils.ts has been modified
+Listening on port 3000
+[INFO] 10:20:08 Restarting: /home/nugu/Repositories/AO-DiscordBot/src/App.ts has been modified
+Listening on port 3000
+[INFO] 10:21:23 Restarting: /home/nugu/Repositories/AO-DiscordBot/src/App.ts has been modified
+Listening on port 3000
+[INFO] 10:24:33 Restarting: /home/nugu/Repositories/AO-DiscordBot/src/utils.ts has been modified
+Listening on port 3000
+[INFO] 10:25:06 Restarting: /home/nugu/Repositories/AO-DiscordBot/src/utils.ts has been modified
+Listening on port 3000
+[INFO] 10:26:52 Restarting: /home/nugu/Repositories/AO-DiscordBot/src/utils.ts has been modified
+Listening on port 3000

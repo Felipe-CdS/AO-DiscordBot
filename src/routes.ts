@@ -5,6 +5,6 @@ const router = Router();
 
 const pingController = new PingController();
 
-router.post("/ping", pingController.handle );
+router.post("/interactions", pingController.handle );
 
 export { router }
