@@ -1,14 +1,14 @@
 {
-  "name": "AO-DiscordBot",
+  "name": "ao-discordbot",
   "version": "1.0.0",
   "main": "src/index.js",
   "repository": "git@github.com:Felipe-CdS/AO-DiscordBot.git",
   "author": "Felipe-CdS <felipe32santos@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
-    "dev": "ts-node-dev src/index.ts",
-    "start": "node ./dist/index.js"
+    "build": "tsc -p .",
+    "start": "NODE_PATH=./dist node dist/index.js",
+    "dev": "ts-node-dev src/index.ts"    
   },
   "dependencies": {
     "@discordjs/builders": "^0.13.0",
